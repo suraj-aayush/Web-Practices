@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>
+    array operations
+</title>
+</head>
+<body>
+
+    <script>
+        arr=["ram","shyam","mohan","sohan","nepal"];
+        document.write("original array is ");
+        document.write("<br>");
+           document.write(arr);
+           document.write("<br>");
+
+// LENGTH  -----> to get length of array
+var size = arr.length;
+document.write("<br>");
+
+document.write("1. size of array is " + size);
+
+document.write("<br>");
+
+//SORTING ARRAY
+document.write("<br>");
+arr.sort();
+document.write("2.sorted array is ");
+document.write("<br>");
+
+document.write(arr);
+
+document.write("<br>");
+document.write("<br>");
+
+//PUSH -------> adding one element to last
+arr.push("new element");
+document.write("3.adding 1 element at last using push ( new element )");
+document.write("<br>");
+
+document.write(arr);
+
+document.write("<br>");
+document.write("<br>");
+
+// POP  ------> removing last element of array
+document.write("4.removing last element using pop");
+document.write("<br>");
+
+arr.pop();
+document.write(arr);
+
+document.write("<br>");document.write("<br>");
+
+//SHIFT -----> removing 1st element of array
+
+document.write("5. removing 1st element using shift");
+document.write("<br>");
+
+arr.shift();
+document.write(arr);
+
+document.write("<br>");document.write("<br>");
+
+//UNSHIFT -----> adding element to 1st position of array
+document.write("6. adding \"new 1st element\" to 1st position using unshift");
+document.write("<br>");
+
+arr.unshift("new 1st element");
+document.write(arr);
+
+document.write("<br>");
+document.write("<br>");
+
+       
+
+
+
+    </script>
+
+</body>
+</html>
